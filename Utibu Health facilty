@@ -1,0 +1,121 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Utibu Health Facility Home page</title>
+<script>
+function myFunction() {
+confirm("confirm purchase !");
+}
+src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+</script>
+<style>
+h1{
+text-align:center;
+}
+body{
+background-color:grey;
+}
+table, th, td {
+border:1px solid;
+}
+</style>
+<head>
+<body>
+<div data-ng-app=""data-ng-init="quantity"=1;price=5">
+<form >
+<div class="container">
+<h1> Utibu Health Facility</h1>
+<p> Welcome to the Utibu Health Facility.</p>
+<p> This is the available Medicine in our store rigth now.</p>
+<table>
+<tr>
+<th>Name</th>
+<th>Amount Available<th>
+<th>Price in Kenya KES<th>
+</tr>
+<tr>
+<td>Panadol</td>
+<td>500</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Kaluma</td>
+<td>60</td>
+<td>20</td>
+</tr>
+<tr>
+<td>mara moja</td>
+<td>800</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Super Cough</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Panadol Extra</td>
+<td>200</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Kaluma Cough</td>
+<td>400</td>
+<td>15</td>
+</tr>
+</table>
+<p>Place your oder down below.</p>
+<label for="Name">Choose the name of medicine:</label>
+<select>
+<option value="Panadol">Panadol</option>
+<option value="Kaluma">Kaluma</option>
+<option value=mara moja">mara moja</option>
+<option value="Super cough">Super cough</option>
+<option value="Panadol Extra">Panadol Extra</option>
+<option value="Kaluma cough">Kaluma Cough</option>
+</select><br>
+<label for="amount" >Amount to Purchase</label>
+<input type="number" ng-model="quantity"><br>
+<label for="price">Price</label>
+<input type="number"ng-model="price">
+<p> Total in KES:{{quantity*price}}</p>
+<label for="Delivery">Choose the Delivery method:</label>
+<select>
+<option value="Home Delivery">Home Delivery</option>
+<option value="Hospital Delivery">Hospital Delivery</option>
+</select><br>
+<button onclick="myFunction()">Purchase </button>
+
+<input type="reset" value="reset">
+<p>Utibu Health Facility is a top player in the category of health care centers in Kenya. It is well known for providing timely intesive care to patients and you can get in touch with them to check what are the emergency services offered by the facility. You may also book an appointment online or via a call.</p><br/>
+<hr>
+<p>Follow us on various social media platforms with links down below.</p>
+</div>
+</div>
+</div>
+<footer>
+<div class="row">
+<div class="large-12 colums">
+<div class="row">
+<div class="large-8 columns">
+<ul class="social">
+<li class="twitter"><a href="https://twitter.cojjm/apachefreinds">Follow on Twitter</a></li>
+<li class="facebook"><a href="https://www.facebook.com/we.arhhe.xampp">like us on facebook</a></li>
+</ul>
+<ul class="inline-list">
+<li><a href="https://www.apachefriends.org/privacy_policy.html">Privacy Policy</a></li>
+</li>
+</ul>
+</div>
+<div class="large-4 columns">
+<p class="text-rigth">Copyright (c) 2024, Utibu Health Facility</p>
+</div>
+</div>
+</div>
+</div>
+<footer>
+</div>
+</body>
+</div>
+</form>
+</html>
